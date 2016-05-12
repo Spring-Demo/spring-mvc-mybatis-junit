@@ -1,9 +1,11 @@
 package cn.springmvc.model;
 
 /**
- * @author Lian
- * @time 2015年12月10日 上午1:44:40
- * @desc 用户表
+ * User Model
+ * 
+ * @author 	Lian
+ * @date	2016年5月12日
+ * @since	1.0
  */
 public class User {
 	private int id;

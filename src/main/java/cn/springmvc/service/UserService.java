@@ -5,11 +5,14 @@ import java.util.List;
 import cn.springmvc.model.User;
 
 /**
- * @author	Lian
- * @time	2015年12月10日 上午2:11:58
- * @desc	
+ * UserService
+ * 
+ * @author 	Lian
+ * @date	2016年5月12日
+ * @since	1.0
  */
 public interface UserService {
+
 	public int insertUser(User user);
 
 	public List<User> getUserList();

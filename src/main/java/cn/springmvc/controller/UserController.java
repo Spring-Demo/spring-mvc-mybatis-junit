@@ -4,9 +4,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
+ * User Controller
+ * 
  * @author 	Lian
- * @date	2016年1月12日 下午9:58:57
- * @desc	用户控制层
+ * @date	2016年5月12日
+ * @since	1.0
  */
 @Controller
 @RequestMapping("/")

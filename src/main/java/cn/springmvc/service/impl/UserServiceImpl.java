@@ -10,9 +10,11 @@ import cn.springmvc.model.User;
 import cn.springmvc.service.UserService;
 
 /**
- * @author	Lian
- * @time	2015年12月10日 上午2:12:39
- * @desc	
+ * UserService Impl
+ * 
+ * @author 	Lian
+ * @date	2016年5月12日
+ * @since	1.0
  */
 @Service
 public class UserServiceImpl implements UserService {
@@ -23,13 +25,9 @@ public class UserServiceImpl implements UserService {
 		return userDAO.insertUser(user);
 	}
 
-	/**
-	 * @return
-	 */
 	@Override
 	public List<User> getUserList() {
 		return userDAO.getUserList();
 	}
-	
-	
+
 }
